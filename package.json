@@ -1,0 +1,35 @@
+{
+  "name": "digital-health-identity",
+  "version": "1.0.0",
+  "description": "A web application for managing digital health identities.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "build": "tailwindcss build src/css/tailwind.css -o public/tailwind.css",
+    "start": "live-server public"
+  },
+  "keywords": [
+    "health",
+    "identity",
+    "digital",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "live-server": "^1.2.1",
+    "mongoose": "^8.15.2",
+    "tailwindcss": "^2.2.19"
+  },
+  "homepage": "https://yourprojecthomepage.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/digital-health-identity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/digital-health-identity/issues"
+  }
+}
